@@ -38,9 +38,9 @@ document.addEventListener("DOMContentLoaded", function() {
         });
         // Language ラベルを更新する
         if (selectedLanguage === 'en') {
-            languageLabel.textContent = 'Language: ';
-        } else if (selectedLanguage === 'ja') {
             languageLabel.textContent = '言語: ';
+        } else if (selectedLanguage === 'ja') {
+            languageLabel.textContent = 'Language: ';
         }
         /*else if (selectedLanguage === 'fr') {
                    languageLabel.textContent = 'Langue: ';
